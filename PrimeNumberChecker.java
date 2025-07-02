@@ -1,6 +1,6 @@
 public class PrimeNumberChecker {
     public static void main(String[] args) {
-        int number = 128; // Hardcoded input number
+        int number = 256; // Hardcoded input number
 
         boolean isPrime = true;
 
@@ -21,7 +21,7 @@ public class PrimeNumberChecker {
             System.out.println(number + " is not a prime number.I changed this for question 2");
         }
 
-        System.out.println("List of prime numbers up to " + number + ":");
+        System.out.println("List of prime numbers up to " + number + ":" + "final change made here");
         for (int i = 2; i <= number; i++) {
             boolean isPrimeCheck = true;
             for (int j = 2; j <= Math.sqrt(i); j++) {
